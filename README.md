@@ -68,6 +68,7 @@ Here is a simple architecture overview of the Java Class:
    ```markdown
    List: ["test", "aaa", 4, "err", "temp", 6, "xyz"]
    Array: [9, 2, 3, "acb", 3, 5, "acb", 2, 7, "empty", "empty", 8, 8, 2, "acb", 1, 1, 1]
+   ```
 
 ![Class](/docs/Code_TechTest1.png "Class")
 
@@ -76,6 +77,7 @@ Here is a simple architecture overview of the Java Class:
    ```markdown
    List: ["test", "aaa", 4, "err", "temp", 6, "xyz"]
    Array: [9, 2, 3, "acb", 3, 5, "acb", 2, 7, "empty", "empty", 8, 8, 2, "acb", 1, 1, 1]
+   ```
 
 ![result](/docs/Result_TechTest1.jpg "result")
 
