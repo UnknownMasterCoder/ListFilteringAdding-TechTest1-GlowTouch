@@ -47,10 +47,9 @@ The solution is implemented in a single class, `ListAddTechTest`, which includes
 > ## File Structure
 Here is the files structure of the project in IntelliJ IDEA:
 
-```css
-src
-└── ListAddTechTest.java
-```
+   ```css
+   src
+   └── ListAddTechTest.java
 
 > ## Class Diagram
 Here is a simple architecture overview of the Java Class:
@@ -64,24 +63,20 @@ Here is a simple architecture overview of the Java Class:
 > ## Example Usage
 
 ### Input
-Run the Spring Boot Application endpoint
 
-![Spring run](/docs/Execute_TechTest2.jpg "Spring run")
+   ```markdown
+   List: ["test", "aaa", 4, "err", "temp", 6, "xyz"]
+   Array: [9, 2, 3, "acb", 3, 5, "acb", 2, 7, "empty", "empty", 8, 8, 2, "acb", 1, 1, 1]
 
-### 1. Handling adding null items
-Using Postman, if you try to add null items, you will receive a `400 - Bad Request` response:
+![Class](/docs/Code_TechTest1.png "Class")
 
-![result 1](/docs/Result1_TechTest2.jpg "result 1")
+### Output
 
-### 2. Adding new items successfully
-You can also send a request like the following to add new items, you will receive a `200 - OK` response:
+   ```markdown
+   List: ["test", "aaa", 4, "err", "temp", 6, "xyz"]
+   Array: [9, 2, 3, "acb", 3, 5, "acb", 2, 7, "empty", "empty", 8, 8, 2, "acb", 1, 1, 1]
 
-![result 2](/docs/Result2_TechTest2.jpg "result 2")
-
-### 3. Handling item conflicts
-If you try to add items with existing IDs, you will receive a `409 - Conflict` response:
-
-![result 3](/docs/Result3_TechTest2.jpg "result 3")
+![result](/docs/Result_TechTest1.jpg "result")
 
 > ## Author
 
