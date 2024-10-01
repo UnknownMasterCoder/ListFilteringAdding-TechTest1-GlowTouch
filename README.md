@@ -50,6 +50,7 @@ Here is the files structure of the project in IntelliJ IDEA:
    ```css
    src
    └── ListAddTechTest.java
+   ```
 
 > ## Class Diagram
 Here is a simple architecture overview of the Java Class:
