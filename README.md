@@ -6,7 +6,11 @@ This is a Java program that adds a filtered array to an existing list. The filte
 
 > ## Technologies Used
 
-- **Java**: 17
+- **Java**: 11 or higher
+
+> ## Requirements
+
+- **Java 11** or higher.
 
 > ## Problem Statement - Project Requirements
 
@@ -24,9 +28,6 @@ The solution is implemented in a single class, `ListAddTechTest`, which includes
 - A method to add the filtered array to the list (`addToList`).
 - A method to filter duplicates from the array (`filterArrayDuplicates`).
 
-> ## Requirements
-
-- **Java 11** or higher.
 
 > ## How to Run the API
 
@@ -40,7 +41,7 @@ The solution is implemented in a single class, `ListAddTechTest`, which includes
    ```bash
    javac src/ListAddTechTest.java
    
-3. Run the program
+3. **Run the program:**
    ```bash
    java -cp src ListAddTechTest
 
