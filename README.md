@@ -64,19 +64,23 @@ Here is a simple architecture overview of the Java Class:
 > ## Example Usage
 
 ### Input
+Example of an array with many duplicates (unfiltered)
 
-   ```markdown
+   ```mathematica
    List: ["test", "aaa", 4, "err", "temp", 6, "xyz"]
    Array: [9, 2, 3, "acb", 3, 5, "acb", 2, 7, "empty", "empty", 8, 8, 2, "acb", 1, 1, 1]
    ```
 
-![Class](/docs/Code_TechTest1.png "Class")
+![Class](/docs/Code_TechTest1.jpg "Class")
 
 ### Output
+Output of adding the array to the list without the duplicates
 
-   ```markdown
-   List: ["test", "aaa", 4, "err", "temp", 6, "xyz"]
-   Array: [9, 2, 3, "acb", 3, 5, "acb", 2, 7, "empty", "empty", 8, 8, 2, "acb", 1, 1, 1]
+   ```mathematica
+   Parameter List: [test, aaa, 4, err, temp, 6, xyz]
+   Parameter Array: [9, 2, 3, acb, 3, 5, acb, 2, 7, empty, empty, 8, 8, 2, acb, 1, 1, 1]
+   Result List: [test, aaa, 4, err, temp, 6, xyz, 9, 2, 3, acb, 5, 7, empty, 8, 1]
+
    ```
 
 ![result](/docs/Result_TechTest1.jpg "result")
