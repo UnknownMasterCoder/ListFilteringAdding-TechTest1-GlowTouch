@@ -24,9 +24,9 @@ Please write a method based on the following requirements:
 > ## Solution
 The solution is implemented in a single class, `ListAddTechTest`, which includes:
 
-- A main method that defines test data and prints the results.
-- A method to add the filtered array to the list (`addToList`).
-- A method to filter duplicates from the array (`filterArrayDuplicates`).
+- ✅ A main method that defines test data and prints the results.
+- ✅ A method to add the filtered array to the list (`addToList`).
+- ✅ A method to filter duplicates from the array (`filterArrayDuplicates`).
 
 
 > ## How to Run the API
